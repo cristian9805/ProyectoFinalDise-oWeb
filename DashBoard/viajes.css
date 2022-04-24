@@ -1,0 +1,181 @@
+body{
+    background-image: url(/Imagenes/clean-g1439c169c_1920.jpg);
+}
+h2{
+    font-family:cursive;
+    font-size: 70px;
+    text-align: center;
+    color: #036600;
+    text-decoration: underline;
+}
+.container{
+    text-align: center;
+}
+.labelUsuario{
+     font-family: cursive;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 20px;
+    text-align: left;
+    font-variant: inherit;
+    font-weight: bolder;
+}
+.form-EditarregistroUsu{
+    text-align: center;
+    width: 500px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.form_viajes{
+    text-align: center;
+}
+.btnEnlaces{
+    position: relative;
+    font-size: large;
+    padding: 9px;
+    letter-spacing: 1px;
+    transition: 0.1s;
+    border: none;
+    border-radius: 10px;
+}
+.btnEnlacesPrincipal{
+    position: relative;
+    font-size: large;
+    padding: 9px;
+    letter-spacing: 1px;
+    transition: 0.1s;
+    border: none;
+    border-radius: 10px;
+}
+.btnEnlacesPrincipal:hover{
+    background: #ffd001;
+    box-shadow: 0 0 10px #ffd001, 0 0 40px #ffd001, 0 0 80px #ffd001;
+    font-weight: bold;
+}
+.btnEnlaces:hover{
+    background: #08fa00;
+    box-shadow: 0 0 10px #08fa00, 0 0 40px #08fa00, 0 0 80px #08fa00;
+    font-weight: bold;
+}
+.btnEnlacesLog{
+    position: relative;
+    font-size: large;
+    padding: 9px;
+    letter-spacing: 1px;
+    transition: 0.1s;
+    border: none;
+    border-radius: 10px;
+}
+.btnEnlacesLog:hover{
+    background: #616cff;
+    box-shadow: 0 0 10px #616cff, 0 0 40px #616cff, 0 0 80px #616cff;
+    font-weight: bold;
+}
+.control{
+    width: 90%;
+    padding: 10px;
+    margin: 1%;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    font-family: cursive;
+    font-size: 15px;
+}
+.controlNumber{
+    text-align: center;
+    width: 60%;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    font-family: cursive;
+    font-size: 15px;
+}
+.labelCantPasajeros{
+    font-size: 25px;
+    text-align: left;
+    font-family: cursive;
+}
+.btnGuardar{
+    font-size: 35px;
+    padding: 9px;
+    letter-spacing: 1px;
+    transition: 0.1s;
+    border: none;
+    border-radius: 10px;
+}
+.btnGuardar:hover{
+    background: #08fa00;
+    box-shadow: 0 0 10px #08fa00, 0 0 40px #08fa00, 0 0 80px #08fa00;
+    font-weight: bold;
+}
+.btnEditar{
+    font-size: 35px;
+    padding: 9px;
+    letter-spacing: 1px;
+    transition: 0.1s;
+    border: none;
+    border-radius: 10px;
+}
+.btnEditar:hover{
+    background: #ff2727;
+    box-shadow: 0 0 10px #ff2727, 0 0 40px #ff2727, 0 0 80px #ff2727;
+    font-weight: bold;
+}
+.enlaceLog{
+    font-size: 25px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #036600;
+}
+.container{
+    width: 85%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container svg{
+    width: 30%;
+    height: 30%;
+    color: #418c3a;
+    text-align: center;
+}
+.containerUsu svg{
+    width: 9%;
+    height: 9%;
+    color: black;
+}
+.containerUsu{
+    width: 100%;
+    padding: auto;
+}
+.article{
+    width: 70%;
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.modal-header{
+    color: #036600;
+}
+.modal-body{
+    color: #000000;
+}
+.h5modalMenuP{
+    color: red;
+}
+@media screen and (max-width: 800px){
+    .container{
+        width: 100%;
+    }
+    .article{
+        width: 100%;
+    }
+    
+}
+

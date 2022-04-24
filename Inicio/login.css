@@ -1,0 +1,112 @@
+body{
+    text-align: center;
+    background-image: url(/Imagenes/clean-g1439c169c_1920.jpg);
+}
+.container{
+    font-size: 10px;
+    margin: 50px;
+    padding:0%;
+}
+.a:hover{
+    text-decoration:underline ;
+    color: black;
+}
+.inicioSesionletras{
+  font-size: 35px;
+  color: rgb(0, 0, 0);  
+  font-family:cursive;
+  font-weight: bolder;
+}
+.control1{
+    width: 80%;
+    background:white;
+    padding: 10px;
+    margin: 1%;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    border: 2px solid rgb(87, 87, 87);
+    font-family:cursive;
+    font-size: 15px;
+    box-shadow: 2px 10px 10px gray;   
+}
+.control1 input {
+    width: 100%;
+    font-size: 0.9em;
+    border: none;
+  }
+.form-control{
+    background:white;
+    padding: 10px;
+    margin: 1%;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    border: 2px solid rgb(87, 87, 87);
+    font-family:cursive;
+    font-size: 15px;
+    box-shadow: 2px 10px 10px gray;   
+}
+.form-control input {
+    width: 100%;
+    font-size: 0.9em;
+    border: #000000;
+  }
+.form-login{
+    background-color: #87a784;
+    text-align: center;
+    width: 100%;
+    padding: 100px;
+    margin: auto;
+    margin-top: 60px;
+    box-shadow: 2px 2px 90px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+}
+.btnIngresar{
+    width: 50%;
+    padding: 12px;
+    margin: 16px;
+    font-size: 16px;
+    border-radius: 10px;
+    position: relative;
+    font-size: large;
+    letter-spacing: 1px;
+    transition: 0.1s;
+    border: none;
+}.btnIngresar:hover{
+    background: #08fa00;
+    box-shadow: 0 0 10px #08fa00, 0 0 40px #08fa00, 0 0 80px #08fa00;
+    font-weight: bold;
+}
+.imgLogin{
+    width: 40%;
+}
+.enlaceRegistrousu, .label1{
+    margin: 0;
+    padding: 0%;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.labelRef{
+    font-size: 15px;
+    font-weight: bold;
+    border: #000000;
+    border-width: 20px;
+}
+.container{
+    max-width: 50%;
+    min-width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.container svg{
+    width: 30%;
+    height: 30%;
+    color: #418c3a;
+    text-align: center;
+}
+.log svg{
+    width: 30%;
+    color: rgb(65, 112, 254);
+}

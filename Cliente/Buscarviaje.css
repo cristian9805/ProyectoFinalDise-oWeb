@@ -1,0 +1,183 @@
+body{
+    background-image:url(/Imagenes/clean-g1439c169c_1920.jpg);
+    background-size: 2400px;
+}
+.jtable{
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: auto;
+    padding: 400%;
+    font-family:cursive;
+    font-size: 20px;
+}
+th ,td{
+    border: solid 1px black;
+    padding: 20px;
+}
+.Diseñocss{
+    background-color: #42663e;
+    border-bottom: solid 5px #08fa00;
+    color: white;
+    font-size: 20px;
+}
+tr:nth-child(even){
+   background-color: rgb(190, 223, 190); 
+}
+tr:hover td{
+    background-color: #42663e;
+    color: white;
+}
+.btnComprar{
+    position: relative;
+    display: inline-block;
+    font-size: large;
+    padding: 9px;
+    letter-spacing: 1px;
+    transition: 0.1s;
+    border-radius: 10px;
+    border-style: double;
+}
+.btnComprar:hover{
+    background: #08fa00;
+    box-shadow: 0 0 10px #08fa00, 0 0 40px #08fa00, 0 0 80px #08fa00;
+}
+/*hasta aqui se edita la tabla*/
+
+/*ediciones genberales*/
+
+.h5label{
+    font-family:cursive;
+    font-size: 200%;
+    color: #036600;
+    padding: 0%;
+    width: auto;
+    font-weight: bold;
+}
+p{
+    font-family:cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+.form-BuscarViaje{
+    text-align: center;
+    width: auto;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+.labelgeneralesOyD{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.divOrigenDestino{
+    width: auto;
+}
+#txtOrigen{
+    width: 67%;
+    padding: 10px;
+    margin: 1%;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    font-family: cursive;
+    font-size: 15px; 
+}
+#txtDestino{
+    width: 60%;
+    padding: 10px;
+    margin: 1%;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    font-family: cursive;
+    font-size: 15px; 
+}
+.controlNumReserva{
+    width: 50%;
+    padding: 10px;
+    margin: 1%;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    font-family: cursive;
+    font-size: 15px; 
+}
+
+.btnReservar{
+    font-size: 23px;
+    transition: 0.1s;
+    text-align: center;
+    border-radius: 10px;
+}
+.btnReservar:hover{
+    background: #08fa00;
+    box-shadow: 0 0 10px #08fa00, 0 0 40px #08fa00, 0 0 80px #08fa00;
+    font-weight: bold;
+}
+.tbViajesDisponibles{
+    font-family:cursive;
+    font-size: 40px;
+    font-weight: bold;
+    margin: auto;
+    padding: 40px;
+}
+.numReserva{
+    border-style:groove;
+    border-radius: 40px;
+    width: 60%;
+    margin: auto;
+    padding: 35px;
+    box-shadow:2px 2px 90px ;
+}
+.btnConsultar{
+    font-size: 35px;
+    padding: 9px;
+    letter-spacing: 1px;
+    transition: 0.1s;
+    border: none;
+    border-radius: 10px;
+}
+.btnConsultar:hover{
+    background: #08fa00;
+    box-shadow: 0 0 10px #08fa00, 0 0 40px #08fa00, 0 0 80px #08fa00;
+    font-weight: bold;
+}
+.labelUsuario{
+    font-family: cursive;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0px;
+    text-align: left;
+    font-variant: inherit;
+    font-weight: bolder;
+}
+.enlaceLog{
+    font-size: 25px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #036600;
+}
+.container{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.modal-header{
+    color: #036600;
+}
+.modal-body{
+    color: #000000;
+}
+.h5modalMenuP{
+    color: red;
+}

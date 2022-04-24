@@ -1,0 +1,189 @@
+body{
+background-image: url(/Imagenes/clean-g1439c169c_1920.jpg);
+}
+.titleTab{
+    font-family:cursive;
+    font-size: 35px;
+    text-align: center;
+    box-shadow: 0 0 30px #036600;
+    background-color: #036600;
+    color: aliceblue;
+    margin: auto;
+    padding: 0%;
+    width: auto;
+    font-weight: bolder;
+}
+.jtable{
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 80%;
+    padding: 0%;
+    margin: auto;
+    font-family:cursive;
+    font-size: 20px;
+}
+th ,td{
+    border: solid 1px black;
+}
+.Diseñocss{
+    background-color: #42663e;
+    border-bottom: solid 5px #08fa00;
+    color: white;
+    font-size: 20px;
+}
+tr:nth-child(even){
+    background-color: rgb(190, 223, 190); 
+}
+tr:hover td{
+    background-color: #42663e;
+    color: white;
+}
+.btnEliminarEditar{
+    position: relative;
+    display: inline-block;
+    font-size: large;
+    padding: 9px;
+    letter-spacing: 1px;
+    transition: 0.1s;
+    border-radius: 10px;
+    border-style: double;
+}
+.btnEliminarEditar:hover{
+    background: #08fa00;
+    box-shadow: 0 0 10px #08fa00, 0 0 40px #08fa00, 0 0 80px #08fa00;
+}
+/*hasta aqui se edita la tabla*/
+
+/*ediciones genberales*/
+.form_dashboard{
+    text-align: center;
+    width: auto;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+.btnEnlacesPrincipal{
+    position: relative;
+    font-size: large;
+    padding: 9px;
+    letter-spacing: 1px;
+    transition: 0.1s;
+    border: none;
+    border-radius: 10px;
+}
+.btnEnlacesPrincipal:hover{
+    background: #ffd001;
+    box-shadow: 0 0 10px #ffd001, 0 0 40px #ffd001, 0 0 80px #ffd001;
+    font-weight: bold;
+}
+.btnEnlaces{
+    position: relative;
+    font-size: large;
+    padding: 9px;
+    letter-spacing: 1px;
+    transition: 0.1s;
+    border: none;
+    border-radius: 10px;
+}
+.btnEnlacesLog{
+    position: relative;
+    font-size: large;
+    padding: 9px;
+    letter-spacing: 1px;
+    transition: 0.1s;
+    border: none;
+    border-radius: 10px;
+}
+.btnEnlacesLog:hover{
+    background: #616cff;
+    box-shadow: 0 0 10px #616cff, 0 0 40px #616cff, 0 0 80px #616cff;
+    font-weight: bold;
+}
+.btnEnlaces:hover{
+    background: #08fa00;
+    box-shadow: 0 0 10px #08fa00, 0 0 40px #08fa00, 0 0 80px #08fa00;
+    font-weight: bold;
+}
+.containerUsu svg{
+    width: 9%;
+    height: 9%;
+    color: black;
+}
+.containerUsu{
+    width: 100%;
+    padding: auto;
+}
+.btnEliminar{
+    position: relative;
+    font-size: large;
+    padding: 9px;
+    letter-spacing: 1px;
+    transition: 0.1s;
+    border: none;
+    border-radius: 10px;
+}
+.btnEliminar:hover{
+    background: #ff1111;
+    box-shadow: 0 0 10px #ff1111, 0 0 40px #ff1111, 0 0 80px #ff1111;
+    font-weight: bold;
+}
+h2{
+    font-family:cursive;
+    font-size: 70px;
+    text-align: center;
+    color: #036600;
+    text-decoration: underline;
+}
+.labelUsuario{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 20px;
+    text-align: left;
+    font-variant: inherit;
+    font-weight: bolder;
+    font-family: cursive;
+}
+.enlaceLog{
+    justify-content: flex-start;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #036600;
+}
+.container{
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.modal-header{
+    color: #036600;
+}
+.modal-body{
+    color: #000000;
+}
+.h5modalMenuP{
+    color: red;
+}
+@media screen and (max-width: 800px){
+    .container{
+        width: 100%;
+    }
+    .article{
+        width: 100%;
+    }
+    .BotonesPrincipales{
+        width: 100%;
+    }
+    .irLogin{
+        width: 100%;
+    }
+}
+
+
+
+
